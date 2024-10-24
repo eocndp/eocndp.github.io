@@ -30,7 +30,7 @@ theme_mode:
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/profile.jpg"
+avatar: "https://cdn.discordapp.com/avatars/615383266412724246/829d64e9c80da631fe2e20e17b668147.webp"
 
 toc: true
 
