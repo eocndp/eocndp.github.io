@@ -2,20 +2,20 @@ theme: jekyll-theme-chirpy
 remote_theme: cotes2020/jekyll-theme-chirpy
 
 baseurl:
-lang: en
+lang: ko-KR
 timezone: Asia/Seoul
 
 title: Kim Jun Young's Blog
 tagline: by Kim Jun Young
 description: 블로그
-url: "https://yulmwu.github.io"
+url: "https://eocndp.github.io"
 
 github:
-  username: yulmwu
+  username: eocndp
 social:
   name: Kim Jun Young
   email: rlawnsdud0422@gmail.com
-  links: https://github.com/yulmwu
+  links: https://github.com/eocndp
 
 google_site_verification:
 
