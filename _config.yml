@@ -6,16 +6,16 @@ lang: ko-KR
 timezone: Asia/Seoul
 
 title: Kim Jun Young's Blog
-tagline: by Kim Jun Young
+tagline:
 description: 블로그
 url: "https://eocndp.github.io"
 
 github:
-  username: eocndp
+  username: yulmwu
 social:
   name: Kim Jun Young
   email: rlawnsdud0422@gmail.com
-  links: https://github.com/eocndp
+  links: https://github.com/yulmwu
 
 google_site_verification:
 
@@ -30,7 +30,7 @@ theme_mode:
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://cdn.discordapp.com/avatars/615383266412724246/829d64e9c80da631fe2e20e17b668147.webp"
+avatar: "https://github.com/yulmwu/yulmwu/blob/main/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202024-11-04%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%209.31.30.png?raw=true"
 
 toc: true
 
