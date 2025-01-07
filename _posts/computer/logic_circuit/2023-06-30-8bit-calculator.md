@@ -19,7 +19,7 @@ tags: ["컴퓨터", "논리회로", "가산기", "가감산기", "7세그먼트 
 
 ### 반가산기 (Half Adder)
 
-![HA](/imgs/2023-06-30-8bit-calculator/ha.png)
+![HA](/assets/img/2023-06-30-8bit-calculator/ha.png)
 
 두개의 입력 `A`와 `B`를 받고, `S`(Sum, 합)과 `C`(Carry, 자리올림)를 출력하는 논리회로입니다.
 
@@ -34,7 +34,7 @@ tags: ["컴퓨터", "논리회로", "가산기", "가감산기", "7세그먼트 
 
 ### 전가산기 (Full Adder)
 
-![FA](/imgs/2023-06-30-8bit-calculator/fa.png)
+![FA](/assets/img/2023-06-30-8bit-calculator/fa.png)
 _`C` = `Cout`_
 
 2개의 반가산기와 OR 게이트로 구성되어 있습니다.
@@ -61,14 +61,14 @@ _`C` = `Cout`_
 
 #### RCA (Ripple Carry Adder)
 
-![RCA](/imgs/2023-06-30-8bit-calculator/rca.png)
+![RCA](/assets/img/2023-06-30-8bit-calculator/rca.png)
 _4비트 RCA, `+` 기호가 있는 부분은 전가산기입니다._
 
 단순히 전가산기를 병렬로 연결한 구조입니다. 비트의 수가 많아진다면, 자리올림이 전달되고 판단되는 시간이 길어지는 단점이 있습니다.
 
 ### 가감산기 (Adder/Subtractor)
 
-![AS](/imgs/2023-06-30-8bit-calculator/as.png)
+![AS](/assets/img/2023-06-30-8bit-calculator/as.png)
 _4비트 가감산기, `Sign`은 `M`(Minus)라고도 불립니다._
 
 가감산기는 덧셈과 뺄셈을 모두 수행할 수 있는 논리회로입니다.
@@ -107,7 +107,7 @@ _4비트 가감산기, `Sign`은 `M`(Minus)라고도 불립니다._
 
 **7세그먼트 디스플레이**는 7개의 획으로 숫자나 문자를 표시하는 디스플레이입니다. 아래와 같이 `A..G`까지의 획이 있습니다.
 
-![7SD](/imgs/2023-06-30-8bit-calculator/7segment.png)
+![7SD](/assets/img/2023-06-30-8bit-calculator/7segment.png)
 _`DP` = Decimal Point_
 
 디스플레이에 숫자를 표시하기 위해 **BCD to 7-Segment Decoder**가 필요합니다.
@@ -170,7 +170,7 @@ _`DP` = Decimal Point_
 
 회로도는 아래와 같습니다:
 
-![ic74147](/imgs/2023-06-30-8bit-calculator/ic74147.png)
+![ic74147](/assets/img/2023-06-30-8bit-calculator/ic74147.png)
 
 ### 레지스터로 자릿수 구분하기
 
@@ -199,7 +199,7 @@ _`DP` = Decimal Point_
 
 이렇게 완성된 회로도는 아래와 같습니다:
 
-![keypad](/imgs/2023-06-30-8bit-calculator/keypad.png)
+![keypad](/assets/img/2023-06-30-8bit-calculator/keypad.png)
 
 ## 마지막: 부가적인 기능 추가하기
 
@@ -207,4 +207,4 @@ _`DP` = Decimal Point_
 
 ---
 
-![result](/imgs/2023-06-30-8bit-calculator/result.png)
+![result](/assets/img/2023-06-30-8bit-calculator/result.png)
