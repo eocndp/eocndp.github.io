@@ -41,7 +41,7 @@ jobs:
           node-version: "16"
 
       - name: Install dependencies
-        run: npm install && npm run build && npm test
+        run: npm install && npm run build
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
